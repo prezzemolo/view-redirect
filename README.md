@@ -1,7 +1,5 @@
-trace-redirect [![][mit-badge]][mit] [![][travis-badge]][travis]
+trace-redirect [![][mit-badge]][mit] [![][travis-badge]][travis] [![][greenkeeper-badge]][greenkeeper]
 =====
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/prezzemolo/trace-redirect.svg)](https://greenkeeper.io/)
 trace where redirects end up.
 
 Installation
@@ -53,3 +51,5 @@ The MIT License. See [LICENSE](LICENSE).
 [mit-badge]:https://img.shields.io/badge/license-MIT-444444.svg?style=flat-square
 [travis]: https://travis-ci.org/prezzemolo/trace-redirect
 [travis-badge]: https://travis-ci.org/prezzemolo/trace-redirect.svg?branch=master
+[greenkeeper]: https://greenkeeper.io/
+[greenkeeper-badge]: https://badges.greenkeeper.io/prezzemolo/trace-redirect.svg
