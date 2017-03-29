@@ -1,5 +1,7 @@
 trace-redirect [![][mit-badge]][mit] [![][travis-badge]][travis]
 =====
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/prezzemolo/trace-redirect.svg)](https://greenkeeper.io/)
 trace where redirects end up.
 
 Installation
