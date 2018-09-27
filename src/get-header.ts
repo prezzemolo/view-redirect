@@ -39,7 +39,7 @@ export default function (url: string): Promise<any> {
 			reject("not-supported-protocol");
 		}
 		else {
-			req.on('error', error => reject(error));
+			req.on("error", error => reject(error));
 			req.end();
 		}
 	});
