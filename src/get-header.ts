@@ -35,8 +35,12 @@ export default function (url: string): Promise<any> {
 			: null;
 
 		/* reject when not supported protocol */
-		if (req === null) reject("not-supported-protocol");
-
-		req.end();
+		if (req === null) {
+			reject("not-supported-protocol");
+		}
+		else {
+			req.on("error", error => reject(error));
+			req.end();
+		}
 	});
 }
